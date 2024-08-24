@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <style>
+        .loginContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="loginContainer">
+        <form action="" id="inputForm">
+            <h2>LOGIN</h2>
+            <label for="userName">UserName:</label>
+            <br>
+            <input type="text" id="userName" name="name" required>
+            <br>
+            <label for="mail">E-mail:</label>
+            <br>
+            <input type="email" id="mail" name="email" required>
+            <br>
+            <label for="Password">Password:</label>
+            <br>
+            <input type="password" id="Password" name="password">
+            <br>
+            <button id="SignUp">Sign in</button>
+        </form>
+    </div>
+</body>
+<script>
+    const Username=document.getElementById('userName').value
+    const Email = document.getElementById('mail').value
+    const Password=document.getElementById('Password').value
+    const SignIn=document.getElementById('SignUp')
+</script>
+</html>
